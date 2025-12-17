@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Klima Center</title>
+    <link rel="stylesheet" href="Projekti.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                  <img src="klimacenter.png" alt="Klima Center Logo"> 
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Premium HVAC Equipment for Every Need</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                
+            </div>
+
+            <div class="products-grid">
+                <!-- Air Conditioning Products -->
+                <div class="product-card" data-category="ac">
+                    <div class="product-image">
+                      <img src="central-air-system.jpg" alt="Central AC Unit">
+                    </div>
+                    <div class="product-info">
+                        <h3>Central Air Conditioning System</h3>
+                        <p class="product-description">High-efficiency central AC unit perfect for whole-home cooling. Energy Star certified.</p>
+                        <p class="product-price">€3,499 - €5,999</p>
+                        <a href="product-details.html?id=1" class="btn btn-primary">View Details</a>
+                        
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ac">
+                    <div class="product-image">
+                        <img src="ductless.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ductless Mini-Split AC</h3>
+                        <p class="product-description">Zone-based cooling solution. Perfect for additions or homes without ductwork.</p>
+                        <p class="product-price">€299 - €999</p>
+                        <a href="product-details.html?id=2" class="btn btn-primary">View Details</a>
+                        
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ac">
+                    <div class="product-image">
+                        <img src="window.avif" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Energy Efficient Window AC</h3>
+                        <p class="product-description">Affordable window air conditioner with high energy efficiency rating.</p>
+                        <p class="product-price">€299 - €799</p>
+                        <a href="product-details.html?id=3" class="btn btn-primary">View Details</a>
+                        
+                    </div>
+                </div>
+
+                <!-- Heating Products -->
+                <div class="product-card" data-category="heating">
+                    <div class="product-image">
+                        <img src="furnace-860x484.webp" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>High-Efficiency Gas Furnace</h3>
+                        <p class="product-description">AFUE rating up to 98%. Reliable heating for cold winters.</p>
+                        <p class="product-price">€2,999 - €4,999</p>
+                        <a href="product-details.html?id=4" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="heating">
+                    <div class="product-image">
+                        <img src="airsource.webp" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Air Source Heat Pump</h3>
+                        <p class="product-description">Dual-purpose system providing both heating and cooling. Highly efficient.</p>
+                        <p class="product-price">€3,999 - €6,999</p>
+                        <a href="product-details.html?id=5" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="heating">
+                    <div class="product-image">
+                        <img src="Boiler.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Residential Boiler System</h3>
+                        <p class="product-description">Radiant heating system for consistent, comfortable warmth throughout your home.</p>
+                        <p class="product-price">€4,499 - €7,999</p>
+                        <a href="product-details.html?id=6" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Ventilation Products -->
+                <div class="product-card" data-category="ventilation">
+                    <div class="product-image">
+                        <img src="ERV.webp" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Energy Recovery Ventilator</h3>
+                        <p class="product-description">Improves indoor air quality while maintaining energy efficiency.</p>
+                        <p class="product-price">€1,499 - €2,999</p>
+                        <a href="product-details.html?id=7" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ventilation">
+                    <div class="product-image">
+                        <img src="Fan.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Commercial Exhaust Fan</h3>
+                        <p class="product-description">High-capacity exhaust system for commercial and industrial applications.</p>
+                        <p class="product-price">€599 - €1,499</p>
+                        <a href="product-details.html?id=8" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="ventilation">
+                    <div class="product-image">
+                        <img src="wholefan.webp" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Whole House Ventilation Fan</h3>
+                        <p class="product-description">Efficient whole-house ventilation for improved air circulation and quality.</p>
+                        <p class="product-price">€799 - €1,899</p>
+                        <a href="product-details.html?id=9" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>❄️ Klima Center</h3>
+                    <p>Your trusted partner for all HVAC needs. Professional service since 2005.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 Email: shpkklimacenter@gmail.com</p>
+                    <p>📞 Phone: +383 43 500 101</p>
+                    <p>📍 Address: Brigada 123 Suhareke</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Klima Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
