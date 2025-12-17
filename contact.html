@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Klima Center</title>
+    <link rel="stylesheet" href="Projekti.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                  <img src="klimacenter.png" alt="Klima Center Logo"> 
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our HVAC experts</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions about our HVAC products or services? We're here to help! Fill out the form or contact us directly.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Brigada 123 Suhareke,Kosovo</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>shpkklimacenter@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+383 43 500 101</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Mon-Fri: 8:00 AM - 5:00 PM<br>Sat: 8:00 AM - 5:00 PM<br>Sun: Emergency Only</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="contactName">Name *</label>
+                            <input type="text" id="contactName" name="name" placeholder="Your Full Name">
+                            <span class="error-message" id="contactNameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail">Email *</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="your.email@example.com">
+                            <span class="error-message" id="contactEmailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactPhone">Phone Number *</label>
+                            <input type="tel" id="contactPhone" name="phone" placeholder="(+383) 44 111 111">
+                            <span class="error-message" id="contactPhoneError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactSubject">Subject *</label>
+                            <input type="text" id="contactSubject" name="subject" placeholder="What is this regarding?">
+                            <span class="error-message" id="contactSubjectError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="message" rows="5" placeholder="Tell us how we can help..."></textarea>
+                            <span class="error-message" id="contactMessageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <div id="contactFormSuccess" class="success-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>❄️ Klima Center</h3>
+                    <p>Your trusted partner for all HVAC needs. Professional service since 2005.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 Email: shpkklimacenter@gmail.com</p>
+                    <p>📞 Phone: +383 43 500 101</p>
+                    <p>📍 Address: Brigada 123 Suhareke</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Klima Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/validation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
