@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Klima Center</title>
+    <link rel="stylesheet" href="Projekti.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                  <img src="klimacenter.png" alt="Klima Center Logo"> 
+                </a>
+
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slider-container" id="sliderContainer">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Professional HVAC Solutions</h1>
+                    <p>Keeping Your Home Comfortable Year-Round</p>
+                    <a href="products.html" class="btn btn-primary">Explore Products</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Energy Efficient Systems</h1>
+                    <p>Save Money While Staying Comfortable</p>
+                    <a href="products.html" class="btn btn-primary">View Solutions</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Expert Installation & Service</h1>
+                    <p>Trusted HVAC Professionals Since 2005</p>
+                    <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-btn prev" id="prevBtn">&#8249;</button>
+            <button class="slider-btn next" id="nextBtn">&#8250;</button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Dashboard Content -->
+    <section class="dashboard">
+        <div class="container">
+            <h2 class="section-title">Why Choose Klima Center?</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <div class="card-icon">❄️</div>
+                    <h3>Air Conditioning</h3>
+                    <p>Premium AC units for residential and commercial spaces. Stay cool all summer long.</p>
+                    <a href="products.html" class="btn btn-secondary">View AC Units</a>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">🔥</div>
+                    <h3>Heating Systems</h3>
+                    <p>Efficient heating solutions including furnaces, heat pumps, and boilers.</p>
+                    <a href="products.html" class="btn btn-secondary">View Heaters</a>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">💨</div>
+                    <h3>Ventilation</h3>
+                    <p>Advanced ventilation systems for improved air quality and circulation.</p>
+                    <a href="products.html" class="btn btn-secondary">View Systems</a>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Maintenance & Repair</h3>
+                    <p>Professional HVAC maintenance and repair services to keep your systems running.</p>
+                    <a href="contact.html" class="btn btn-secondary">Schedule Service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>Installation</h3>
+                    <p>Professional installation of all HVAC equipment by certified technicians.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Maintenance</h3>
+                    <p>Regular maintenance plans to ensure optimal performance and longevity.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Repair</h3>
+                    <p>24/7 emergency repair services for all HVAC systems.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Consultation</h3>
+                    <p>Expert advice on choosing the right HVAC system for your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>❄️ Klima Center</h3>
+                    <p>Your trusted partner for all HVAC needs. Professional service since 2005.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 Email: shpkklimacenter@gmail.com</p>
+                    <p>📞 Phone: +383 43 500 101</p>
+                    <p>📍 Address: Brigada 123 Suhareke</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Klima Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="slider.js"></script>
+    <script src="main.js"></script>
+    <script src="validation.js"></script>
+</body>
+</html>
+
