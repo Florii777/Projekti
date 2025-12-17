@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Klima Center</title>
+    <link rel="stylesheet" href="Projekti.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                  <img src="klimacenter.png" alt="Klima Center Logo"> 
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Details Section -->
+    <section class="product-details-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <a href="products.html">Products</a> / <span>Product Details</span>
+            </div>
+
+            <div class="product-details-wrapper">
+                <div class="product-details-image">
+                    <div class="placeholder-image large" id="productImage">Product Image</div>
+                </div>
+
+                <div class="product-details-info">
+                    <h1 id="productTitle">Central Air Conditioning System</h1>
+                    <p class="product-price-large" id="productPrice">€3,499 - €5,999</p>
+                    <p class="product-description-full" id="productDescription">
+                        High-efficiency central AC unit perfect for whole-home cooling. Energy Star certified with advanced features for optimal comfort and energy savings.
+                    </p>
+
+                    <div class="product-features">
+                        <h3>Key Features:</h3>
+                        <ul id="productFeatures">
+                            <li>Energy Star Certified</li>
+                            <li>Variable Speed Compressor</li>
+                            <li>Wi-Fi Enabled Smart Thermostat</li>
+                            <li>10-Year Warranty</li>
+                            <li>Quiet Operation</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-actions">
+                        <button class="btn btn-primary btn-large">Request Quote</button>
+                        <button class="btn btn-secondary btn-large">Schedule Installation</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="description">Description</button>
+                    <button class="tab-btn" data-tab="specifications">Specifications</button>
+                    <button class="tab-btn" data-tab="warranty">Warranty</button>
+                </div>
+
+                <div class="tab-content active" id="description">
+                    <h3>Product Description</h3>
+                    <p>This comprehensive central air conditioning system is designed to provide efficient, reliable cooling for your entire home. With advanced technology and energy-efficient components, this system will keep you comfortable while reducing your energy costs.</p>
+                    <p>The system features a variable-speed compressor that adjusts to your cooling needs, ensuring optimal performance and energy savings. The included smart thermostat allows you to control your home's temperature from anywhere using your smartphone.</p>
+                </div>
+
+                <div class="tab-content" id="specifications">
+                    <h3>Technical Specifications</h3>
+                    <ul>
+                        <li><strong>Cooling Capacity:</strong> 2-5 Tons (depending on model)</li>
+                        <li><strong>SEER Rating:</strong> Up to 20 SEER</li>
+                        <li><strong>Energy Efficiency:</strong> Energy Star Certified</li>
+                        <li><strong>Noise Level:</strong> As low as 55 dB</li>
+                        <li><strong>Refrigerant:</strong> R-410A</li>
+                        <li><strong>Dimensions:</strong> Varies by model</li>
+                        <li><strong>Weight:</strong> 150-300 lbs</li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="warranty">
+                    <h3>Warranty Information</h3>
+                    <p>This product comes with comprehensive warranty coverage:</p>
+                    <ul>
+                        <li><strong>Parts Warranty:</strong> 10 years</li>
+                        <li><strong>Compressor Warranty:</strong> 10 years</li>
+                        <li><strong>Labor Warranty:</strong> 1 year (extendable)</li>
+                    </ul>
+                    <p>All warranty terms are subject to proper installation and regular maintenance. Contact us for full warranty details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>❄️ Klima Center</h3>
+                    <p>Your trusted partner for all HVAC needs. Professional service since 2005.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 Email: shpkklimacenter@gmail.com/p>
+                    <p>📞 Phone:+383 43 500 101</p>
+                    <p>📍 Address: Brigada 123 Suhareke</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Klima Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
